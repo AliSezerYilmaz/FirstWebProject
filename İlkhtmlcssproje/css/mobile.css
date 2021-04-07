@@ -1,0 +1,12 @@
+#navbar{
+   flex-direction: column;
+   padding-top: 0,75rem;
+   padding-bottom: 0,5rem;
+   overflow: hidden;
+}
+#info .items{
+flex-direction: column;
+}
+#info .items .item{
+    width: 100%;
+}

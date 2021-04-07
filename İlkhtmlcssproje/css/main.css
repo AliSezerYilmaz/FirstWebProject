@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+html{
+    font-family: Oleo Script;
+}
+#navbar{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+}
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a{
+    padding: 0.6rem;
+
+}
+#navbar ul li a:hover{
+    background: #252424;
+    border-radius: 4px;
+
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid gray;
+}
+#home img{
+    max-width: 40%;
+    max-height: auto;
+    border-radius: 100%;
+}
+#home .name h2{
+    margin-bottom: 0,75rem;
+}
+#home .name p{
+    opacity: 0.6;
+    font-style: italic;
+}
+#info{
+    color: white;
+    padding: 1rem;
+}
+#info .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#info .items .item{
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+}
+#info .items .item:hover{
+    color: red;
+    opacity: 0.5;
+}
+#contact{
+    color: white;
+    padding: 1rem;
+
+}
+#contact .contact-form{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+#contact .contact-form ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 1rem;
+    align-self: center;
+    
+}
+#contact .contact-form ul li a{
+    padding: 1rem;
+    font-size: 2rem;
+}
+#contact .contact-form ul li a:hover{
+    opacity: 0.6;
+}
